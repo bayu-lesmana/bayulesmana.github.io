@@ -1,66 +1,93 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bayu Lesmana | IT Support</title>
+  <meta name="description" content="Bayu Lesmana — IT Support professional specializing in troubleshooting, networking, system maintenance, and cybersecurity fundamentals.">
+  <meta name="keywords" content="IT Support, Cybersecurity, System Administration, Networking, Windows Support, macOS Support, Cloud, Remote Support, Bayu Lesmana">
+  <meta name="author" content="Bayu Lesmana">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0f62fe">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Bayu Lesmana — IT Support & Technology Enthusiast">
+  <meta property="og:description" content="IT Support professional skilled in troubleshooting, networking, system maintenance and cybersecurity.">
+  <meta property="og:image" content="assets/profile.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bayulesmana.github.io/">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bayu Lesmana — IT Support">
+  <meta name="twitter:description" content="IT Support professional skilled in troubleshooting, networking, system maintenance and cybersecurity.">
+  <meta name="twitter:image" content="assets/profile.jpg">
+  <link rel="canonical" href="https://bayulesmana.github.io/">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <img src="assets/profile.jpg" alt="Foto Profil Bayu Lesmana" class="profile-img">
-    <h1>Bayu Lesmana</h1>
-    <h2>IT Support & Technology Enthusiast</h2>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/bayu-lesmana/" target="_blank">LinkedIn</a>
-      <a href="mailto:bayu.lesmana@icloud.com">Email</a>
+  <header class="hero container">
+    <img src="assets/profile.jpg" alt="Profile photo of Bayu Lesmana" class="profile-img">
+    <div>
+      <h1>Bayu Lesmana</h1>
+      <h2>IT Support & Technology Enthusiast</h2>
+  <p class="muted hero-desc">I help teams and individuals keep systems running smoothly — troubleshooting, securing, and automating where possible.</p>
     </div>
-    <a href="assets/cv-bayu.pdf" class="cv-btn" target="_blank">Download CV</a>
+    <div class="meta">
+      <a href="assets/cv-bayu.pdf" class="cv-btn" target="_blank">Download CV</a>
+    </div>
   </header>
 
-  <section class="about">
-    <h3>Tentang Saya</h3>
+  <section class="about container">
+    <h3>About Me</h3>
     <p>
-      Saya seorang profesional di bidang IT Support dengan pengalaman dalam troubleshooting, jaringan, 
-      serta pemeliharaan sistem. Saya memiliki ketertarikan pada keamanan siber dan efisiensi sistem kerja,
-      serta selalu berusaha meningkatkan kemampuan teknis dan soft skill saya di dunia teknologi.
+      I am an IT Support professional with experience in troubleshooting, networking, and system maintenance.
+      I focus on delivering reliable, secure, and efficient systems while helping users solve problems quickly.
     </p>
   </section>
 
-  <section class="skills">
-    <h3>Keahlian</h3>
-    <ul>
-      <li>Hardware & Software Troubleshooting</li>
-      <li>Manajemen Jaringan dan Internet</li>
-      <li>Windows & macOS System Support</li>
-      <li>Dasar-dasar Cybersecurity</li>
-      <li>Cloud dan Remote Access Tools</li>
+  <section class="skills container">
+    <h3>Skills</h3>
+    <ul class="skill-list">
+      <li class="skill-badge">Hardware & Software</li>
+      <li class="skill-badge">Network Management</li>
+      <li class="skill-badge">Windows & macOS Support</li>
+      <li class="skill-badge">Cybersecurity Fundamentals</li>
+      <li class="skill-badge">Cloud & Remote Tools</li>
     </ul>
   </section>
 
-  <section class="experience">
-    <h3>Pengalaman</h3>
-    <div class="exp-item">
-      <h4>IT Support - [Nama Perusahaan]</h4>
-      <span>2022 - Sekarang</span>
-      <p>
-        Bertanggung jawab dalam instalasi, konfigurasi, dan pemeliharaan sistem komputer, serta memberikan 
-        dukungan teknis kepada pengguna. Membantu meningkatkan efisiensi sistem jaringan internal.
-      </p>
-    </div>
+  <section class="experience container">
+    <h3>Experience</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>IT Support - [Company Name]</h4>
+        <div class="muted">2022 - Present</div>
+  <p class="card-desc">Responsible for installing, configuring, and maintaining computer systems, providing technical support to users, and improving internal network efficiency.</p>
+      </div>
 
-    <div class="exp-item">
-      <h4>Freelance Technician</h4>
-      <span>2019 - 2022</span>
-      <p>
-        Menangani perbaikan komputer, instalasi sistem operasi, dan konsultasi teknis untuk pengguna individu 
-        dan bisnis kecil.
-      </p>
+      <div class="card">
+        <h4>Freelance Technician</h4>
+        <div class="muted">2019 - 2022</div>
+  <p class="card-desc">Performed computer repairs, OS installations, and provided technical consulting for individuals and small businesses.</p>
+      </div>
     </div>
   </section>
 
   <footer>
-    © 2025 Bayu Lesmana. All rights reserved.
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/bayu-lesmana/" target="_blank" aria-label="LinkedIn" class="footer-icon">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="#0A66C2"/>
+          <path d="M10.667 13.333h2.666v8h-2.666v-8zm1.333-4a1.333 1.333 0 110 2.667 1.333 1.333 0 010-2.667zm3.333 4h2.56v1.093h.037c.357-.677 1.23-1.393 2.533-1.393 2.707 0 3.227 1.787 3.227 4.107v4.193h-2.667v-3.733c0-.893-.017-2.04-1.24-2.04-1.24 0-1.427.967-1.427 1.967v3.806h-2.667v-8z" fill="#fff"/>
+        </svg>
+      </a>
+      <a href="mailto:bayu.lesmana@icloud.com" aria-label="Email" class="footer-icon">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="#EA4335"/>
+          <path d="M8 12.667A2.667 2.667 0 0110.667 10h10.666A2.667 2.667 0 0124 12.667v6.666A2.667 2.667 0 0121.333 22H10.667A2.667 2.667 0 018 19.333v-6.666zm2.667-.667a.667.667 0 00-.667.667v.24l6 3.6 6-3.6v-.24a.667.667 0 00-.667-.667H10.667zm10.666 2.027l-5.44 3.264a1.333 1.333 0 01-1.446 0l-5.447-3.264v5.273c0 .367.3.667.667.667h10.666a.667.667 0 00.667-.667v-5.273z" fill="#fff"/>
+        </svg>
+      </a>
+    </div>
+    <div style="margin-top:10px">© 2025 Bayu Lesmana. All rights reserved.</div>
   </footer>
 </body>
 </html>
